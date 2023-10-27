@@ -1,0 +1,23 @@
+{
+  "Login":"登录",
+  "Username":"用户名",
+  "Password":"密码",
+  "remember_me":"记住账号",
+  "forgot_ur_password":"忘记密码了吗？",
+  "register_question":"还没有注册？现在注册",
+  "pricing":"价钱",
+  "Packages": "套餐",
+  "bussiness_location": "营业地点",
+  "Users": "ا用户",
+  "Products": "产品",
+  "Invoices": "发票",
+  "Essential_module": "基本模块",
+  "Trial_days":  "أ试用日",
+  "months": "几个月",
+  "register_subscribe": "注册并订阅",
+  "unlimited_products": "无限产品",
+  "manufacturing_module": "制造模块",
+  "Product_catalouge_module": "产品目录模块",
+  "Project_Module": "项目模块",
+  "Woocommerce_Module": "Woocommerce 模块"
+  }

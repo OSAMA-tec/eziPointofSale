@@ -1,0 +1,23 @@
+{
+  "Login":"د ننه کیدل",
+  "Username":"کارن نوم",
+  "Password":"رمز",
+  "remember_me":"ما په یاد ولره",
+  "forgot_ur_password":"پټ نوم مو هیر شوی؟",
+  "register_question":"تر اوسه ثبت شوی نه دی؟ اوس ې ثبت کړه",
+  "pricing":"نرخونه",
+  "Packages": "بسته بندي",
+  "bussiness_location": "د سوداګرۍ ځای",
+  "Users": "کاروونکي",
+  "Products": "محصولات",
+  "Invoices": "رسیدونه",
+  "Essential_module": "اړین ماډل",
+  "Trial_days":  "د محاکمې ورځې",
+  "months": "میاشتې",
+  "register_subscribe": "راجستر او ګډون وکړئ",
+  "unlimited_products": "لامحدود محصولات",
+  "manufacturing_module": "د تولید ماډل",
+  "Product_catalouge_module": "د محصول کتلاګ ماډل",
+  "Project_Module": "د پروژې ماډل",
+  "Woocommerce_Module": "ماډل Woocommerce د"
+}

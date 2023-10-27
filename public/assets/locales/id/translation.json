@@ -1,0 +1,23 @@
+{
+  "Login":"Gabung",
+  "Username":"Nama belakang",
+  "Password":"Kata sandi",
+  "remember_me":"Ingat saya",
+  "forgot_ur_password":"Lupa kata sandi Anda?",
+  "register_question":"Belum terdaftar? Daftar sekarang",
+  "pricing":"Harga",
+  "Packages": "Paket",
+  "bussiness_location": "Lokasi bisnis",
+  "Users": "Pengguna",
+  "Products": "Produk",
+  "Invoices": "Faktur",
+  "Essential_module": "Modul Penting",
+  "Trial_days":  "Hari Percobaan",
+  "months": "Bulan",
+  "register_subscribe": "Daftar & Berlangganan",
+  "unlimited_products": "Produk Tanpa Batas",
+  "manufacturing_module": "Modul Manufaktur",
+  "Product_catalouge_module": "Modul Katalog Produk",
+  "Project_Module": "Modul Proyek",
+  "Woocommerce_Module": "Modul Woocommerce"
+}

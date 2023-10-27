@@ -1,0 +1,23 @@
+{
+  "Login":"Log in",
+  "Username":"Nume de utilizator",
+  "Password":"Parola",
+  "remember_me":"Ține-mă minte",
+  "forgot_ur_password":"Ați uitat parola?",
+  "register_question":"Nu sunteți încă înregistrat? Înregistrează-te acum",
+  "pricing":"Prețuri",
+  "Packages": "Pachete",
+  "bussiness_location": "Locația afacerii",
+  "Users": "Utilizatori",
+  "Products": "Produse",
+  "Invoices": "Facturi",
+  "Essential_module": "Modul esențial",
+  "Trial_days":  "Zilele de Probă",
+  "months": "Luni",
+  "register_subscribe": "Înregistrați-vă și abonați-vă",
+  "unlimited_products": "Produse nelimitate",
+  "manufacturing_module": "Modul de fabricație",
+  "Product_catalouge_module": "Modulul Catalog de produse",
+  "Project_Module": "Modulul de proiect",
+  "Woocommerce_Module": "Modulul Woocommerce"
+}

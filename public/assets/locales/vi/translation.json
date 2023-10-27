@@ -1,0 +1,23 @@
+{
+  "Login":"Đăng nhập",
+  "Username":"tên tài khoản",
+  "Password":"Mật khẩu",
+  "remember_me":"nhớ tôi",
+  "forgot_ur_password":"Quên mật khẩu?",
+  "register_question":"Vẫn chưa được đăng ký? Đăng ký ngay",
+  "pricing":"Định giá",
+  "Packages": "Gói",
+  "bussiness_location": "Địa điểm kinh doanh",
+  "Users": "Người dùng",
+  "Products": "Các sản phẩm",
+  "Invoices": "Hóa đơn",
+  "Essential_module": "Mô-đun cần thiết",
+  "Trial_days":  "Ngày dùng thử",
+  "months": "Tháng",
+  "register_subscribe": "Đăng ký & Đăng ký",
+  "unlimited_products": "Sản phẩm không giới hạn",
+  "manufacturing_module": "Mô-đun sản xuất",
+  "Product_catalouge_module": "Mô-đun danh mục sản phẩm",
+  "Project_Module": "Mô-đun dự án",
+  "Woocommerce_Module": "Mô-đun thương mại điện tử"
+  }

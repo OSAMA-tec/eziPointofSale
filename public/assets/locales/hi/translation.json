@@ -1,0 +1,23 @@
+{
+  "Login":"लॉग इन करें",
+  "Username":"उपयोगकर्ता नाम",
+  "Password":"पासवर्ड",
+  "remember_me":"मुझे याद करो",
+  "forgot_ur_password":"अपना कूट शब्द भूल गए?",
+  "register_question":"अभी तक पंजीकृत नहीं किया गया? अभी पंजीकरण करें",
+  "pricing":"मूल्य निर्धारण",
+  "Packages": "संकुल",
+  "bussiness_location": "व्यावसायिक स्थान",
+  "Users": "उपयोगकर्ताओं",
+  "Products": "Dउत्पादों",
+  "Invoices": "चालान",
+  "Essential_module": "आवश्यक मॉड्यूल",
+  "Trial_days":  "परीक्षण के दिन",
+  "months": "महीने",
+  "register_subscribe": "रजिस्टर करें और सदस्यता लें",
+  "unlimited_products": "असीमित उत्पाद",
+  "manufacturing_module": "असीमित उत्पाद",
+  "Product_catalouge_module": "विनिर्माण मॉड्यूल",
+  "Project_Module": "उत्पाद सूची मॉड्यूल",
+  "Woocommerce_Module": "वूकॉमर्स मॉड्यूल"
+ }

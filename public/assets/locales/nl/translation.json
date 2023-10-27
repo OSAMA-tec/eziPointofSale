@@ -1,0 +1,25 @@
+{
+  "Login":"Log in",
+  "Username":"Gebruikersnaam",
+  "Password":"Wachtwoord",
+  "remember_me":"Onthoud me",
+  "forgot_ur_password":"Je wachtwoord vergeten?",
+  "register_question":"Nog niet geregistreerd? Registreer nu",
+  "pricing":"prijzen",
+  "Packages": "Pakketjes",
+  "bussiness_location": "Bedrijfslocatie",
+  "Users": "Gebruikers",
+  "Products": "Producten",
+  "Invoices": "Facturen",
+  "Essential_module": "Essentiële module",
+  "Trial_days":  "Proefdagen",
+  "months": "Maanden",
+  "register_subscribe": "Registreren en abonneren",
+  "unlimited_products": "Onbeperkte producten",
+  "manufacturing_module": "Productiemodule",
+  "Product_catalouge_module": "Productcatalogusmodule",
+  "Project_Module": "Projectmodule",
+  "Woocommerce_Module": "Woocommerce-module"
+
+
+  }

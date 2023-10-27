@@ -1,0 +1,23 @@
+{
+  "Login":"تسجيل الدخول",
+  "Username":"اسم المستخدم",
+  "Password":"كلمة المرور",
+  "remember_me":"تذكرنى",
+  "forgot_ur_password":"نسيت كلمة السر؟",
+  "register_question":"غير مسجل بعد؟ سجل الان",
+  "pricing":"التسعير",
+  "Packages": "الحزم",
+  "bussiness_location": "موقع العمل",
+  "Users": "المستخدمون",
+  "Products": "منتجات",
+  "Invoices": "الفواتير",
+  "Essential_module": "الوحدة الأساسية",
+  "Trial_days":  "أيام المحاكمة",
+  "months": "شهور",
+  "register_subscribe": "التسجيل والاشتراك",
+  "unlimited_products": "منتجات غير محدودة",
+  "manufacturing_module": "وحدة التصنيع",
+  "Product_catalouge_module": "وحدة كتالوج المنتجات",
+  "Project_Module": "وحدة المشروع",
+  "Woocommerce_Module": "وحدة ووكومرس"
+  }

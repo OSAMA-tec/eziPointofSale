@@ -1,0 +1,23 @@
+{
+  "Login":"Conecte-se",
+  "Username":"Nome de usuário",
+  "Password":"Senha",
+  "remember_me":"Lembre de mim",
+  "forgot_ur_password":"Esqueceu sua senha?",
+  "register_question":"Ainda não registrado? Registrar agora",
+  "pricing":"Preços",
+  "Packages": "Pacotes",
+  "bussiness_location": "Localização da empresa",
+  "Users": "Usuários",
+  "Products": "Produtos",
+  "Invoices": "Faturas",
+  "Essential_module": "Módulo Essencial",
+  "Trial_days":  "Dias de teste",
+  "months": "Meses",
+  "register_subscribe": "Registre-se e assine",
+  "unlimited_products": "Produtos Ilimitados",
+  "manufacturing_module": "Módulo de Fabricação",
+  "Product_catalouge_module": "Módulo Catálogo de Produtos",
+  "Project_Module": "Módulo de Projeto",
+  "Woocommerce_Module": "Módulo Woocommerce"
+  }

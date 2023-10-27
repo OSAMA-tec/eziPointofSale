@@ -1,0 +1,23 @@
+{
+  "Login":"Giriş yapmak",
+  "Username":"Kullanıcı adı",
+  "Password":"Şifre",
+  "remember_me":"Beni Hatırla",
+  "forgot_ur_password":"Parolanızı mı unuttunuz?",
+  "register_question":"Henüz kayıtlı değil misiniz? Şimdi üye Ol",
+  "pricing":"Fiyatlandırma",
+  "Packages": "Paketler",
+  "bussiness_location": "İşletme Yeri",
+  "Users": "Kullanıcılar",
+  "Products": "Ürünler",
+  "Invoices": "Faturalar",
+  "Essential_module": "Temel Modül",
+  "Trial_days":  "Deneme Günleri",
+  "months": "Aylar",
+  "register_subscribe": "Kayıt Ol ve Abone Ol",
+  "unlimited_products": "Sınırsız Ürün",
+  "manufacturing_module": "Üretim Modülü",
+  "Product_catalouge_module": "Ürün Katalog Modülü",
+  "Project_Module": "Proje Modülü",
+  "Woocommerce_Module": "WooCommerce Modülü"
+  }

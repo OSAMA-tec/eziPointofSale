@@ -1,0 +1,23 @@
+{
+  "Login":"Identifikohu",
+  "Username":"Emri i përdoruesit",
+  "Password":"Fjalëkalimi",
+  "remember_me":"Më kujto mua",
+  "forgot_ur_password":"Keni harruar fjalëkalimin tuaj?",
+  "register_question":"Nuk jeni regjistruar akoma? Regjistrohu Tani",
+  "pricing":"Çmimet",
+  "Packages": "Paketat",
+  "bussiness_location": "Vendndodhja e biznesit",
+  "Users": "Përdoruesit",
+  "Products": "Produktet",
+  "Invoices": "Faturat",
+  "Essential_module": "Moduli Thelbësor",
+  "Trial_days":  "Ditët e provës",
+  "months": "Muaj",
+  "register_subscribe": "Regjistrohu & Abonohu",
+  "unlimited_products": "Produkte të pakufizuara",
+  "manufacturing_module": "Moduli i Prodhimit",
+  "Product_catalouge_module": "Moduli i Katalogut të Produkteve",
+  "Project_Module": "Moduli i Projektit",
+  "Woocommerce_Module": "Moduli Woocommerce"
+  }

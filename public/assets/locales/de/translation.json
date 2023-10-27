@@ -1,0 +1,23 @@
+{
+  "Login":"Anmeldung",
+  "Username":"Nutzername",
+  "Password":"Passwort",
+  "remember_me":"Erinnere dich an mich",
+  "forgot_ur_password":"Haben Sie Ihr Passwort vergessen?",
+  "register_question":"Noch nicht registriert? Jetzt registrieren",
+  "pricing":"Preisgestaltung",
+  "Packages": "Pakete",
+  "bussiness_location": "Geschäftsstandort",
+  "Users": "Benutzer",
+  "Products": "Produkte",
+  "Invoices": "Rechnungen",
+  "Essential_module": "Grundlegendes Modul",
+  "Trial_days":  "Probetage",
+  "months": "Monate",
+  "register_subscribe": "Registrieren und abonnieren",
+  "unlimited_products": "Unbegrenzte Produkte",
+  "manufacturing_module": "Fertigungsmodul",
+  "Product_catalouge_module": "Produktkatalogmodul",
+  "Project_Module": "Projektmodul",
+  "Woocommerce_Module": "Woocommerce-Modul"
+  }

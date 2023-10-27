@@ -1,0 +1,23 @@
+{
+  "Login":"ເຂົ້າ​ສູ່​ລະ​ບົບ",
+  "Username":"ຊື່ຜູ້ໃຊ້",
+  "Password":"ລະຫັດຜ່ານ",
+  "remember_me":"ຈື່​ຂ້ອຍ",
+  "forgot_ur_password":"ລືມລະຫັດຜ່ານຂອງທ່ານບໍ?",
+  "register_question":"ຍັງບໍ່ໄດ້ລົງທະບຽນ? ລົງ​ທະ​ບຽນ​ດຽວ​ນີ້",
+  "pricing":"ລາຄາ",
+  "Packages": "ການຫຸ້ມຫໍ່",
+  "bussiness_location": "ສະຖານທີ່ທຸລະກິດ",
+  "Users": "ຜູ້ໃຊ້",
+  "Products": "ຜະລິດຕະພັນ",
+  "Invoices": "ໃບເກັບເງິນ",
+  "Essential_module": "ໂມດູນທີ່ຈໍາເປັນ",
+  "Trial_days":  "ມື້ທົດລອງ",
+  "months": "ເດືອນ",
+  "register_subscribe": "ລົງທະບຽນ & ຈອງ",
+  "unlimited_products": "ຜະລິດຕະພັນບໍ່ຈໍາກັດ",
+  "manufacturing_module": "ໂມດູນການຜະລິດ",
+  "Product_catalouge_module": "ໂມດູນລາຍການຜະລິດຕະພັນ",
+  "Project_Module": "ໂມດູນໂຄງການ",
+  "Woocommerce_Module": "ໂມດູນ Woocommerce"
+}

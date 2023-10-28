@@ -1,48 +1,41 @@
-import React, { useRef, useState } from 'react'
-import { FaCalendar, FaMapMarker } from 'react-icons/fa'
+import React, { useEffect, useState, useRef } from 'react';
+import axios from 'axios';
+import { FaCalendar, FaMapMarker } from 'react-icons/fa';
 import { format } from 'date-fns';
 import { addDays } from 'date-fns';
 import { DefinedRange } from 'react-date-range';
 import StockAdjustmentTbl from '../Tables/StockAdjustmentTbl';
-// import { useReactToPrint } from 'react-to-print';
-
 
 const StockAdjusmentRpt = () => {
-    const [summary] = useState([
-        {
-            heading: "Total Normal",
-            amont: 0.00
-        },
-        {
-            heading: "Total Abnormal:",
-            amont: 0.00
-        },
-        {
-            heading: "Total Stock Adjustment:",
-            amont: 0.00
-        }
-    ])
-    const [summary1] = useState([
-        {
-            heading: "Total Amount Recovered:",
-            amont: 0.00
-        }
-    ])
-    const [open1, setOpen1] = useState(false)
-    const [location, setLocation] = useState('second')
-    const [range, setRange] = useState([
-        {
-            startDate: new Date(),
-            endDate: addDays(new Date(), 7),
-            key: "selection"
-        }
-    ])
-    const printRef = useRef()
-    // const handlePrint = useReactToPrint({
-    //     content: () => printRef.current,
-    //     documentTitle: "SellReport",
-    //     copyStyles: true,
-    // });
+  const [reportData, setReportData] = useState([]);
+  const [summary] = useState([
+    { heading: "Total Normal", amont: 0.00 },
+    { heading: "Total Abnormal:", amont: 0.00 },
+    { heading: "Total Stock Adjustment:", amont: 0.00 }
+  ]);
+  const [summary1] = useState([
+    { heading: "Total Amount Recovered:", amont: 0.00 }
+  ]);
+  const [open1, setOpen1] = useState(false);
+  const [location, setLocation] = useState('second');
+  const [range, setRange] = useState([
+    { startDate: new Date(), endDate: addDays(new Date(), 7), key: "selection" }
+  ]);
+  const printRef = useRef();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('http://localhost:3001/reports/stock');
+        setReportData(response.data);
+      } catch (error) {
+        console.error('Failed to fetch data from API:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
     
 
     return (

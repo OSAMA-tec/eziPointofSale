@@ -1,10 +1,11 @@
-import React, { useRef, useState } from 'react'
-import { FaColumns,  FaFileCsv, FaFileExcel, FaFilePdf,  FaPrint, FaSearch } from 'react-icons/fa'
+import React, { useRef, useState, useEffect } from 'react'
+import { FaColumns, FaFileCsv, FaFileExcel, FaFilePdf, FaPrint, FaSearch } from 'react-icons/fa'
 import { useReactToPrint } from 'react-to-print';
 import { CSVLink } from 'react-csv';
 import * as XLSX from 'xlsx'
 import { jsPDF } from 'jspdf';
 import * as htmlToImage from 'html-to-image';
+import axios from 'axios';
 // import { Link } from 'react-router-dom';
 
 
@@ -106,9 +107,7 @@ const ProdutctPurchaseTbl = () => {
     const [col7, setCol7] = useState(true)
     const [col8, setCol8] = useState(true)
     const [col9, setCol9] = useState(true)
-    
-    
-    
+    const [data, setData] = useState([]);
     // const [actionList, setActionList] = useState(Array(record.length).fill(false))
 
     // const toggleDropdown = (index) => {
@@ -145,12 +144,24 @@ const ProdutctPurchaseTbl = () => {
             setCrpage(crpage + 1)
         }
     }
-    
-
+    useEffect(() => {
+        const token = localStorage.getItem('token');
+        axios.get('http://localhost:3001/report/product-purchase', {
+            headers: {
+                'Authorization': token
+            }
+        })
+            .then(response => {
+                setData(response.data);
+            })
+            .catch(error => {
+                console.error('There was an error!', error);
+            });
+    }, []);
 
     return (
         <div>
-            
+
             <div className='flex  flex-col md:flex-row items-center justify-center mt-3 md:justify-between mx-5'>
 
                 <div className='flex items-center justify-center my-2 md:my-0'>
@@ -214,7 +225,7 @@ const ProdutctPurchaseTbl = () => {
 
             </div>
             <div className='flex flex-col  overflow-x-scroll  mt-5 ' ref={printRef} >
-                <table id='usertbl'  className="table-fixed w-[115%] ">
+                <table id='usertbl' className="table-fixed w-[115%] ">
                     <thead>
                         <tr className='h-[50px] bg-white text-sm px-1 text-center'>
                             {col1 && <th className=" py-2   border-l-[1px] border-r-[1px] border-gray-200  tracking-wider  text-gray-900  Name"> Product</th>}
@@ -228,29 +239,27 @@ const ProdutctPurchaseTbl = () => {
                             {col9 && <th className=" py-2 title-font border-l-[1px] border-r-[1px] border-gray-200  tracking-wider font-medium text-gray-900  Name">Subtotal</th>}
                         </tr>
                     </thead>
-                    <tbody >
-                        {record.map((value, index) => {
-                            return <tr key={index} className='text-sm'>
-                                {col1 && <td className=" py-1 px-1 w-full ">{value.Name}</td>}
-                                {col2 && <td className="px-1 py-1 ">{value.Name}</td>}
-                                {col3 && <td className="px-1 py-1"> {value.Name}</td>}
-                                {col4 && <td className="px-1 py-1">{value.Role}</td>}
-                                {col5 && <td className=" py-1 px-1">{value.Name}</td>}
-                                {col6 && <td className=" py-1 px-1">{value.Role}</td>}
-                                {col7 && <td className="px-1 py-1 text-sm">{value.Name}</td>}
-                                {col8 && <td className="px-1 py-1"> {value.Name}</td>}
-                                {col9 && <td className="px-1 py-1 text-sm">{value.Name}</td>}
-                                
-                                
-                            </tr>
+                    <tbody>
+                        {data.map((value, index) => {
+                            return (
+                                <tr key={index} className='text-sm'>
+                                    {col1 && <td className=" py-1 px-1 w-full ">{value.product}</td>}
+                                    {col2 && <td className="px-1 py-1 ">{value.sku}</td>}
+                                    {col3 && <td className="px-1 py-1"> {value.supplier}</td>}
+                                    {col4 && <td className="px-1 py-1">{value.referenceNumber}</td>}
+                                    {col5 && <td className=" py-1 px-1">{value.date}</td>}
+                                    {col6 && <td className=" py-1 px-1">{value.quantity}</td>}
+                                    {col7 && <td className="px-1 py-1 text-sm">{value.totalUnitAdjusted}</td>}
+                                    {col8 && <td className="px-1 py-1"> {value.unitPurchasePrice}</td>}
+                                    {col9 && <td className="px-1 py-1 text-sm">{value.subtotal}</td>}
+                                </tr>
+                            )
                         })}
-
-
                     </tbody>
                     <tfoot>
                         <tr></tr>
                     </tfoot>
-                </table> 
+                </table>
             </div>
             <nav className='  my-2 w-full'>
                 <ul className='flex justify-end'>
@@ -269,7 +278,7 @@ const ProdutctPurchaseTbl = () => {
                     </li>
                 </ul>
             </nav>
-            
+
         </div>
     )
 }

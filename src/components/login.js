@@ -97,23 +97,23 @@ const Login = () => {
     const [remember, setRemember] = useState(false)
 
     const handleLogin = async () => {
-        // try {
-        //     const response = await axios.post('http://localhost:8000/admin/auth/login', {
-        //         userName,
-        //         password,
-        //     });
+        try {
+            // const response = await axios.post('http://localhost:8000/admin/auth/login', {
+            //     userName,
+            //     password,
+            // });
     
-        //     if (response.status === 200) {
-        //         const token = response.data.token;
-        //         localStorage.setItem('token', token);
-        //         console.log(response);
-        //         Navigate("/home");
-        //     }
+            // if (response.status === 200) {
+            //     const token = response.data.token;
+            //     localStorage.setItem('token', token);
+            //     console.log(response);
+                Navigate("/home");
+            // }
     
-        // } catch (error) {
-        //     console.error(error.response.data);
-        //     // Handle login error
-        // }
+        } catch (error) {
+            console.error(error.response.data);
+            // Handle login error
+        }
     };
     const handleChange =(e)=>{
         if(e.target.name ==="username"){

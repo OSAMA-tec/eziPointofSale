@@ -13,7 +13,7 @@ const ProductSellRpt = () => {
         {
             id: 1,
             Username: "username",
-            Name: "User",
+            Name: "Osama",
             Role: "Admin",
             Email: "username@gmail.com"
         },
